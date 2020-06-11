@@ -1,0 +1,58 @@
+﻿@page "/"
+@using Newtonsoft.Json.Linq
+
+    <div id="wrapper">
+        <h4>Choose a Color</h4>
+        <div id="preview" style="@StyleValue"></div>
+        @*Add Disabled="true" in below code to diable the Color Picker
+        Add CssClass="e-hide-value" to hide input area from picker mode*@
+        <SfColorPicker Value="035a"
+                       Mode="ColorPickerMode.Palette"
+                       Inline="true"
+                       ModeSwitcher="false"
+                       ShowButtons="false"
+                       NoColor="true"
+                       PresetColors="@CustomValues[0]"
+                       Columns="4"
+                       ValueChange="OnChange"></SfColorPicker>
+    </div>
+
+@code{
+
+    public string StyleValue = "background-color:#008000";
+
+    public HexColorValue ColorValue { get; set; }
+
+    public class HexColorValue
+    {
+        public string hex { get; set; }
+    }
+
+    public List<Object> CustomValues = new List<object>
+{
+        new{
+                Custom = new string[] {"#b80000", "#db3e00", "#fccb00", "#008b02",
+                "#006b76", "#1273de", "#004dcf", "#5300eb", "#eb9694", "#fad0c3", "#fef3bd", "#c1e1c5",
+                "#bedadc", "#c4def6", "#bed3f3", "#d4c4fb"}
+            },
+    };
+
+    public void OnChange(ColorPickerEventArgs args)
+    {
+        this.ColorValue = ((JObject)args.CurrentValue).ToObject<HexColorValue>();
+        this.StyleValue = "background-color:" + this.ColorValue.hex;
+        this.StateHasChanged();
+    }
+}
+
+<style>
+    #wrapper {
+        text-align: center;
+    }
+
+    #preview {
+        height: 50px;
+        width: 100px;
+        margin: 2% 45%;
+    }
+</style>
