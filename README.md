@@ -1,10 +1,6 @@
 # Create Blazor Color Picker Component in Blazor WebAssembly App
 A quick start Blazor WebAssembly app that allows you to configure the [Blazor Color Picker](https://www.syncfusion.com/blazor-components/blazor-color-picker) component from Syncfusion with its available options. This project contains simple code customizations, as well as some important features such as different types of color picker modes, hiding input areas, adding preset colors etc. with other palette customizations.
 
-Documentation: https://blazor.syncfusion.com/documentation/color-picker/getting-started/
-
-Online examples: https://blazor.syncfusion.com/demos/color-picker/default-functionalities
- 
 ## Project prerequisites
 
 Make sure that you have the compatible versions of Visual Studio 2019 and .NET Core SDK 3.1.3 in your machine before starting to work on this project.
@@ -14,24 +10,15 @@ Make sure that you have the compatible versions of Visual Studio 2019 and .NET C
 To run this application, you need to first clone the `create-blazor-color-picker-component-in-blazor-webassembly-app` repository and then open it in Visual Studio 2019. Now, simply build and run your project to view the output.
 
 ## Related links
-[Learn More about Blazor Color Picker](https://www.syncfusion.com/blazor-components/blazor-color-picker?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)
-
-[Documentation](https://blazor.syncfusion.com/documentation/color-picker/getting-started/getting-started?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)
-
-[Download Free Trial](https://www.syncfusion.com/downloads/blazor-samples?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)
-
-[Release History](https://blazor.syncfusion.com/documentation/release-notes/19.4.38?type=all?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)
-
-[Online Demos](https://github.com/syncfusion/blazor-samples?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)
-
-[Contact Support](https://www.syncfusion.com/support/directtrac/incidents/newincident/?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)
-
-[Suggest a feature or report a bug](https://www.syncfusion.com/feedback/blazor?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)
-
-[Community Forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)
-
-[Knowledge base](https://www.syncfusion.com/kb?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)
-
+[Learn More about Blazor Color Picker](https://www.syncfusion.com/blazor-components/blazor-color-picker?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)<br/><br/>
+[Documentation](https://blazor.syncfusion.com/documentation/color-picker/getting-started?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)<br/><br/>
+[Download Free Trial](https://www.syncfusion.com/downloads/blazor-samples?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)<br/><br/>
+[Release History](https://blazor.syncfusion.com/documentation/release-notes/19.4.38?type=all?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)<br/><br/>
+[Online Demos](https://blazor.syncfusion.com/demos/color-picker/default-functionalities?theme=fluent?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)<br/><br/>
+[Contact Support](https://www.syncfusion.com/support/directtrac/incidents/newincident/?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)<br/><br/>
+[Suggest a feature or report a bug](https://www.syncfusion.com/feedback/blazor?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)<br/><br/>
+[Community Forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)<br/><br/>
+[Knowledge base](https://www.syncfusion.com/kb?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)<br/><br/>
 [Pricing](https://www.syncfusion.com/sales/products/blazor?utm_source=github&utm_medium=listing&utm_campaign=blazor-color-picker-github-samples)
 
 ## About Syncfusion Blazor UI Controls
